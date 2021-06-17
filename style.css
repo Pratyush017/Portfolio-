@@ -1,0 +1,68 @@
+h1 {
+    color: rgb(54, 24, 0);
+    margin: 30px ;
+   
+    
+}
+
+ .header * {
+    border: solid;
+} 
+
+.header{
+    background-color: rgb(231, 52, 52);
+    display: flex;
+    justify-content: space-between;
+}
+
+.site-description{
+    display: flex;
+    flex-direction: column;
+    justify-content: first baseline;
+}
+
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.footer{
+    display: flex;
+    justify-content: flex-end;
+}
+
+p,h2{
+    text-align: center;
+}
+
+a:link {
+color: #00ff00
+
+}
+
+a:visited {
+ color: rgb(17, 29, 18);
+}
+
+.item {
+    position: relative;
+
+
+}
+
+.item p {
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    opacity: 0;
+}
+
+.item:hover p{
+    opacity: 1;
+}
+
+.item:hover img{
+    opacity: 0.5;
+}
